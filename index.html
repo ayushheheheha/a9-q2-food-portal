@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Online Food Ordering Portal</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #fff8f0; margin: 0; color: #2d2a26; }
+  header { background: #c2410c; color: #fff; text-align: center; padding: 22px 12px; }
+  header h1 { margin: 0 0 4px; font-size: 26px; }
+  header p { margin: 0; font-size: 14px; }
+  main { max-width: 900px; margin: 20px auto; padding: 0 14px; }
+  section { background: #fff; border-radius: 6px; padding: 14px 18px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.14); }
+  h2 { margin-top: 0; color: #c2410c; border-bottom: 2px solid #c2410c; padding-bottom: 4px; font-size: 20px; }
+  .cats span { display: inline-block; background: #ffedd5; border: 1px solid #fdba74; border-radius: 16px; padding: 4px 14px; margin: 3px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { border-bottom: 1px solid #eadfd3; padding: 7px 8px; text-align: left; }
+  th { background: #fff1e0; }
+  .yes { color: #15803d; font-weight: bold; }
+  .no { color: #b91c1c; font-weight: bold; }
+  .offer { background: #fef3c7; border-left: 5px solid #d97706; padding: 8px 12px; margin: 6px 0; font-size: 14px; }
+  footer { text-align: center; font-size: 13px; color: #6b6259; padding: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Spice Route Kitchen - Online Food Ordering</h1>
+  <p>12 Garden Street, Vellore | Open daily 10:00 AM - 11:00 PM | Rating 4.5 / 5</p>
+</header>
+<main>
+  <section>
+    <h2>Restaurant Details</h2>
+    <p>Free home delivery within 5 km. Average delivery time 30 minutes. Phone: +91 416 555 0100</p>
+  </section>
+  <section>
+    <h2>Food Categories</h2>
+    <div class="cats"><span>Starters</span><span>Main Course</span><span>Biryani</span><span>Desserts</span><span>Beverages</span></div>
+  </section>
+  <section>
+    <h2>Menu</h2>
+    <table>
+      <tr><th>Item</th><th>Category</th><th>Price</th><th>Availability</th></tr>
+      <tr><td>Paneer Tikka</td><td>Starters</td><td>&#8377;220</td><td class="yes">Available</td></tr>
+      <tr><td>Chicken 65</td><td>Starters</td><td>&#8377;240</td><td class="yes">Available</td></tr>
+      <tr><td>Butter Chicken</td><td>Main Course</td><td>&#8377;320</td><td class="yes">Available</td></tr>
+      <tr><td>Hyderabadi Biryani</td><td>Biryani</td><td>&#8377;280</td><td class="no">Sold out</td></tr>
+      <tr><td>Gulab Jamun</td><td>Desserts</td><td>&#8377;90</td><td class="yes">Available</td></tr>
+      <tr><td>Fresh Lime Soda</td><td>Beverages</td><td>&#8377;70</td><td class="yes">Available</td></tr>
+    </table>
+  </section>
+  <section>
+    <h2>Promotional Offers</h2>
+    <div class="offer">20% off on your first order - use code WELCOME20</div>
+    <div class="offer">Free dessert on orders above &#8377;800</div>
+  </section>
+</main>
+<footer>Food Portal | Release 0.0.0-dev | Support: orders@spiceroute.example</footer>
+</body>
+</html>
